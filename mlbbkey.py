@@ -3,6 +3,8 @@ import string
 import os
 from threading import Thread
 from flask import Flask
+from threading import Thread
+from flask import Flask
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     ApplicationBuilder,
